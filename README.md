@@ -106,11 +106,13 @@ Loan-Default-Risk-Classifier/
   README.md # Project documentation 
 
  
-Dependencies
+
+## Dependencies
+
 Python , NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, XGBoost, TensorFlow, Keras
 Usage 
 
-To reproduce or extend the work presented in this repository: 
+## To reproduce or extend the work presented in this repository: 
 
 Open the notebook Loan_Default_Risk_Classifier_UsmanGhani.ipynb using Jupyter Notebook or Visual Studio Code with the appropriate Python environment activated. 
 
@@ -125,7 +127,7 @@ Model training and evaluation
 Users are encouraged to modify feature engineering steps, hyperparameters, and model configurations to experiment with alternative strategies or improve performance. 
 
  
-8. Results & Observations 
+## Results & Observations 
 
 Among the models evaluated, XGBoost consistently outperformed others in terms of ROC-AUC and F1-score, reflecting its robustness in handling imbalanced classification problems. 
 
@@ -142,7 +144,7 @@ These features exhibited strong discriminatory power in distinguishing defaulter
 While the current version is designed as an analytical notebook, the model architecture and data preprocessing pipeline are structured to facilitate easy extension for deployment in production environments. 
 
  
-9. Limitations 
+## Limitations 
 
 While this study offers a practical approach to default risk prediction, certain limitations remain: 
 
@@ -153,13 +155,13 @@ Model Explainability: Techniques such as SHAP (SHapley Additive exPlanations) or
 Deployment Scope: Real-time prediction serving through an API or web-based frontend is outside the scope of this notebook but can be implemented using tools such as Flask, FastAPI, or Streamlit. 
 
  
-10. License 
+## License 
 
 This repository is licensed under the MIT License, which permits use, modification, and distribution for academic, personal, or commercial purposes, provided that proper credit is attributed to the author. 
 
 For more information, refer to the LICENSE file included in the repository. 
 
-11. Contact 
+## Contact 
 
 This project was developed and is maintained by Usman Ghani (G-o-ah). 
 
