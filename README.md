@@ -105,6 +105,25 @@ Loan-Default-Risk-Classifier/
 
   README.md # Project documentation 
 
- 
+ Install dependencies
+
+If a requirements.txt is added:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Alternatively, install manually:
+
+bash
+Copy
+Edit
+pip install pandas numpy scikit-learn matplotlib seaborn xgboost
+Unzip supporting files
+
+bash
+Copy
+Edit
+unzip supporting_files.zip
 
  
