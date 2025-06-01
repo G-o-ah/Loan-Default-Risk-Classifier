@@ -118,11 +118,11 @@ Open the notebook Loan_Default_Risk_Classifier_UsmanGhani.ipynb using Jupyter No
 
 Execute each code cell sequentially to observe the complete workflow, including: 
 
-Data preprocessing 
+### Data preprocessing 
 
-Exploratory data analysis (EDA) 
+### Exploratory data analysis (EDA) 
 
-Model training and evaluation 
+### Model training and evaluation 
 
 Users are encouraged to modify feature engineering steps, hyperparameters, and model configurations to experiment with alternative strategies or improve performance. 
 
@@ -133,11 +133,11 @@ Among the models evaluated, XGBoost consistently outperformed others in terms of
 
 The most influential features in predicting loan default risk were: 
 
-Debt-to-Income Ratio 
+### Debt-to-Income Ratio 
 
-Previous Delinquencies 
+### Previous Delinquencies 
 
-Income Range 
+### Income Range 
 
 These features exhibited strong discriminatory power in distinguishing defaulters from non-defaulters. 
 
@@ -148,11 +148,11 @@ While the current version is designed as an analytical notebook, the model archi
 
 While this study offers a practical approach to default risk prediction, certain limitations remain: 
 
-Dataset Preprocessing: The dataset used was already preprocessed; access to raw transactional and behavioral data would enable the development of more sophisticated temporal or deep learning models. 
+### Dataset Preprocessing: The dataset used was already preprocessed; access to raw transactional and behavioral data would enable the development of more sophisticated temporal or deep learning models. 
 
-Model Explainability: Techniques such as SHAP (SHapley Additive exPlanations) or LIME for interpretability were not integrated into the current pipeline but are strongly recommended for future enhancements. 
+### Model Explainability: Techniques such as SHAP (SHapley Additive exPlanations) or LIME for interpretability were not integrated into the current pipeline but are strongly recommended for future enhancements. 
 
-Deployment Scope: Real-time prediction serving through an API or web-based frontend is outside the scope of this notebook but can be implemented using tools such as Flask, FastAPI, or Streamlit. 
+### Deployment Scope: Real-time prediction serving through an API or web-based frontend is outside the scope of this notebook but can be implemented using tools such as Flask, FastAPI, or Streamlit. 
 
  
 ## License 
